@@ -1,12 +1,12 @@
 {
-    "name": "shado",
-    "version": "1.0.0",
-    "description": "ShaDo App main",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "build": "bash build.sh",
-      "start": "npm start --prefix ./checklist.service"
-    },
-    "author": "Eljo Padannamackal George",
-    "license": "MIT"
-  }
+  "name": "shado",
+  "version": "1.0.0",
+  "description": "ShaDo App main",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "bash build.sh",
+    "start": "npm start --prefix ./checklist.service"
+  },
+  "author": "Eljo Padannamackal George",
+  "license": "MIT"
+}
