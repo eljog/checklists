@@ -1,8 +1,8 @@
 {
   "image": "mcr.microsoft.com/devcontainers/universal:2",
-  "features": {
-  },
+  "features": {},
   "remoteEnv": {
     "TEST_REMOTE_ENV": "checklists"
-  }
+  },
+  "workspaceFolder": "/myown"
 }
