@@ -1,6 +1,7 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:latest",
   "features": {
+    "ghcr.io/devcontainers/features/mongodb:1": {}
   },
   "remoteEnv": {
     "TEST_REMOTE_ENV": "checklists"
