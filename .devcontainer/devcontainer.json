@@ -1,6 +1,12 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "image": "mcr.microsoft.com/devcontainers/base:debian",
   "features": {
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "lts"
+    },
+    "ghcr.io/devcontainers-contrib/features/mongodb:1": {
+      "version": "latest"
+    }
   },
   "remoteEnv": {
     "TEST_REMOTE_ENV": "checklists"
